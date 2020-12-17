@@ -30,7 +30,7 @@ const statesOptions = {
 	TO: 'Tocantins',
 };
 
-function setStateOption() {
+const setStateOption = () => {
 	for (key in statesOptions) {
 		let value = statesOptions[key];
 		const createOption = document.createElement('option');
