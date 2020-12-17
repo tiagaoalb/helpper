@@ -1,0 +1,71 @@
+body {
+  background: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  color: #abe846;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+label {
+  color: white;
+}
+
+input[type=text],
+[type=email] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 30%;
+}
+
+input.cpf-cnpj,
+input.cep {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 10%;
+}
+
+input[type=tel],
+[type=number] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 10%;
+}
+
+select {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 16%;
+}
+
+option {
+  font-size: 16px;
+}
+
+button {
+  background-color: #abe846;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 10px 0;
+}

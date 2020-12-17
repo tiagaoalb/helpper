@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Cadastro de clientes</title>
+</head>
+<header>Formulário de Cadastro de Clientes</header>
+<div class="container">
+  <form action="data.json" class="client-form">
+    <label for="full-name">Nome: </label>
+    <input id="full-name" type="text" name="full-name" placeholder="Digite seu nome completo">
+    <label for="email">Email: </label>
+    <input id="email" type="email" name="email" placeholder="Digite seu email">
+    <label for="cpf-cnpj">CPF ou CNPJ: </label>
+    <input id="cpf-cnpj" class="cpf-cnpj" type="text" name="cpf-cnpj" placeholder="Digite um CPF ou CNPJ">
+    <label for="phone">Telefone: </label>
+    <input id="phone" type="tel" name="phone" placeholder="(11)91234-5678" pattern="([0-9]{2}[0-9]{5}-[0-9]{4})">
+    <label for="cep">CEP: </label>
+    <input id="cep" class="cep" type="text" name="cep" placeholder="Digite seu CEP">
+    <label for="address">Logradouro: </label>
+    <input id="address" type="text" name="address" placeholder="Digite seu endereço">
+    <label for="address-number">Número: </label>
+    <input id="address-number" type="number" name="address-number" placeholder="Digite o número">
+    <label for="neighborhood">Bairro: </label>
+    <input id="neighborhood" type="text" name="neighborhood" placeholder="Digite seu bairro">
+    <label for="city">Cidade: </label>
+    <input id="city" type="text" name="city" placeholder="Digite sua cidade">
+    <label for="neighborhood">Estado: </label>
+    <select name="state" id="state">
+      <option value="select-state">Selecione seu Estado</option>
+    </select>
+  </form>
+</div>
+<button type="submit">Enviar</button>
+<body>
+  <script src="script.js"></script>
+</body>
+</html>
